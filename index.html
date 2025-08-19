@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#home" class="logo">Aditi Ramola</a>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Web Developer</h1>
+            <p>Building digital experiences that merge creativity and technology.</p>
+            <p class="highlight">Specializing in Generative AI and Backend Development.</p>
+            <a href="#contact" class="cta-button">Let's Connect</a>
+        </div>
+        <div class="hero-image">
+            <img src="Profile.jpg" alt="Profile" class="profile-img">
+        </div>
+    </section>
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2>Technical Expertise</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <i class="fa-solid fa-code"></i>
+                <h3>Frontend Development</h3>
+                <p>HTML, CSS, JavaScript</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa-solid fa-server"></i>
+                <h3>Backend Development</h3>
+                <p>Python, PostgreSQL, MongoDB, Node.js</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa-solid fa-paintbrush"></i>
+                <h3>UI/UX Design</h3>
+                <p>Figma, Adobe XD, Sketch, UserTesting</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+    <h2>My Projects</h2>
+    <div class="projects-grid">
+        <div class="project-card">
+            <i class="fa-solid fa-train-subway"></i>
+            <h3>Train Booking App</h3>
+            <p>Web app for booking train tickets using HTML, CSS, JavaScript, and backend integration. Includes user authentication and booking management.</p>
+        </div>
+        <div class="project-card">
+            <i class="fa-solid fa-heart-pulse"></i>
+            <h3>Health Tracker Website</h3>
+            <p>Python-based website to track health metrics, visualize progress, and set wellness goals.</p>
+        </div>
+        <div class="project-card">
+            <i class="fa-solid fa-database"></i>
+            <h3>Hostel Database Management</h3>
+            <p>System for managing hostel records, room allocation, and student data efficiently.</p>
+        </div>
+        <div class="project-card">
+            <i class="fa-solid fa-robot"></i>
+            <h3>Aura: AI Virtual Assistant</h3>
+            <p>Currently developing an AI-based virtual assistant using Python and Generative AI for smart task automation.</p>
+        </div>
+    </div>
+</section>
+
+    <!--section for contact-->
+    <section id="contact" class="contact-section">
+    <h2>Let's Connect</h2>
+    <form action="https://formspree.io/f/xblkvdwp" method="POST" class="connect-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="contact">Contact Number:</label>
+        <input type="tel" id="contact" name="contact" required pattern="[0-9]{10,15}">
+
+        <label for="site">Type of Site You Want:</label>
+        <input type="text" id="site" name="site" required placeholder="e.g. Portfolio, Blog, E-commerce">
+
+        <label for="details">Additional Details:</label>
+        <textarea id="details" name="details" rows="4" placeholder="Describe your requirements..."></textarea>
+
+        <button type="submit" class="cta-button">Send</button>
+    </form>
+    <p>You can also reach me directly at <br> <a href="mailto:aditiramola56@gmail.com" class="contact-email">aditiramola56@gmail.com</a></p>
+</section>
+    <!--Footer-->
+    <footer>
+        <p>&copy; 2025 Aditi Ramola. All rights reserved.</p>
+        <p>Follow me on:</p>
+        <div class="social-links">
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/aditi-ramola-890719260?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BsXLUzltCS%2FeX3N3uXaRxXQ%3D%3D"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </footer>
+    <!--link to java script file-->
+    <script src="script.js"></script>
+</body>
+</html>
